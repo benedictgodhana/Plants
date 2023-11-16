@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    height: 86vh; 
+    overflow-x: hidden; 
+    overflow-y: scroll;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+main {
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width:940px;
+    margin: 0 auto;
+    
+
+}
+.carousel-inner{
+    height: 500px;
+}
+.card {
+    margin-bottom: 20px; /* Add space between cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border-radius: 10px;
+}
+h3,h1,h2{
+    font-weight: 800;
+    color:green;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.plant-gallery {
+    display: flex; /* Use flexbox to make the plants appear in a row */
+    flex-wrap: wrap; /* Allow plants to wrap to the next row if the container is not wide enough */
+    justify-content: space-around; /* Add space between plants and around the container */
+}
+
+.plant {
+    text-align: center; /* Center-align content within each plant */
+    margin: 10px; /* Add margin around each plant for spacing */
+}
+.plant img {
+    max-width: 100%; /* Ensure images do not exceed the width of the container */
+    max-height: 100%; /* Ensure images do not exceed the height of the container */
+}
+/* Add more styling based on your preferences */
